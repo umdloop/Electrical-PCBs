@@ -11,7 +11,7 @@ This repository contains all PCBs for UMD Loop's 2025-26 rover, Palamedes.
 * Add a new subdirectory for each PCB that is made
 
 ## Including Libraries
-* The following libraries tab
+* The following libraries tab will include the Digikey, or product vendor component, CAD, Schematic, and/or Drawing for the components that are not found on KiCAD
 
 ## Including Datasheets
 * The following datasheets tab includes useful information when referencing the components you need to include on the board
