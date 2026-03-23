@@ -382,7 +382,7 @@
 	(footprint "LM393N_NOPB:DIP794W45P254L959H508Q8"
 		(layer "F.Cu")
 		(uuid "158ccc6b-f8d7-4830-9e5f-c173066181cf")
-		(at 162.885 67.3025)
+		(at 165.57 72.0325)
 		(property "Reference" "U2"
 			(at -0.565 -5.607 0)
 			(layer "F.SilkS")
@@ -1054,7 +1054,7 @@
 	(footprint "OPT101P:DIP762W46P254L952H419Q8"
 		(layer "F.Cu")
 		(uuid "91489420-90e6-4cea-944d-1b300ec54f28")
-		(at 173.815 67.27)
+		(at 176.5 72)
 		(property "Reference" "U1"
 			(at -0.695 -5.5745 0)
 			(layer "F.SilkS")
