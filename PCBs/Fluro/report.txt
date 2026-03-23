@@ -1,0 +1,20 @@
+Info: Processing symbol 'D1:'.
+Info: Processing symbol 'J1:'.
+Info: Processing symbol 'R1:'.
+Info: Processing symbol 'R2:'.
+Info: Processing symbol 'R3:'.
+Info: Processing symbol 'U1:OPT101P:DIP762W46P254L952H419Q8'.
+Info: Processing symbol 'U2:LM393N:DIP794W45P254L959H508Q8'.
+Info: Total warnings: 0, errors: 7.
+
+
+Error: Cannot add D1 (no footprint assigned).
+Error: Cannot add J1 (no footprint assigned).
+Error: Cannot add R1 (no footprint assigned).
+Error: Cannot add R2 (no footprint assigned).
+Error: Cannot add R3 (no footprint assigned).
+Error: Cannot add U1 (footprint 'OPT101P:DIP762W46P254L952H419Q8' not found).
+Error: Cannot add U2 (footprint 'LM393N:DIP794W45P254L959H508Q8' not found).
+
+
+Info: Total warnings: 0, errors: 7.
