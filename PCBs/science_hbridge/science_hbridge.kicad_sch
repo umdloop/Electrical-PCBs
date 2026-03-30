@@ -5467,7 +5467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+5V"
 			(at 292.1 82.55 0)
 			(effects
 				(font
@@ -5898,7 +5898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
 			(at 347.98 187.96 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
 			(at 369.57 74.93 0)
 			(effects
 				(font
@@ -6509,7 +6509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
 			(at 347.98 182.88 0)
 			(effects
 				(font
@@ -6773,12 +6773,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 311.15 45.72 0)
+		(property "Value" "+5V"
+			(at 313.69 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7202,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
 			(at 458.47 81.28 0)
 			(effects
 				(font
