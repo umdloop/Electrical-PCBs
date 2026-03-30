@@ -5325,6 +5325,16 @@
 		)
 		(uuid "49195994-e9a8-4bfe-b0d3-775035c16079")
 	)
+	(label "23"
+		(at 472.44 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a6c27d1-45ff-45fb-82c2-6ce93ad2369f")
+	)
 	(label "24"
 		(at 133.35 115.57 0)
 		(effects
@@ -5435,7 +5445,7 @@
 		)
 		(uuid "75008a86-81fc-4804-b711-ab7e7f4c8095")
 	)
-	(label "22"
+	(label "41"
 		(at 403.86 196.85 180)
 		(effects
 			(font
@@ -5444,6 +5454,16 @@
 			(justify right bottom)
 		)
 		(uuid "7a9475d1-2f61-436e-a36c-fa44d31b15dd")
+	)
+	(label "22"
+		(at 472.44 190.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81f46f81-f771-45c8-994f-bab9882a72c9")
 	)
 	(label "10"
 		(at 133.35 105.41 0)
@@ -5495,7 +5515,7 @@
 		)
 		(uuid "8a7ea446-3e66-49e0-a889-792445e392d2")
 	)
-	(label "23"
+	(label "42"
 		(at 403.86 199.39 180)
 		(effects
 			(font
