@@ -12609,6 +12609,45 @@
 		(layer "Edge.Cuts")
 		(uuid "a57235d9-0a58-4961-be57-54cffab8797b")
 	)
+	(gr_text_box "NOTE: Switch 470 uF to SMD"
+		(start 169.5 70)
+		(end 182 80)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.Cu")
+		(uuid "d706c200-cf0b-4bb4-b096-84289808f9f3")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(gr_text_box "Ground Plane: Good (no extremely thin regions preventing overall continuity)\nDRC: 24V Power Header Capacitor Connection Error"
+		(start 90 53)
+		(end 109.5 66.86)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "6530ca18-d418-49c7-a740-a98a08266f58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
 	(segment
 		(start 126.26 79.68)
 		(end 126.26 74.48)
