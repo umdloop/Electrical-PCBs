@@ -5779,6 +5779,92 @@
 		(layer "Edge.Cuts")
 		(uuid "a25e2a98-6c67-4d0f-be3e-95dc14ca3a36")
 	)
+	(gr_rect
+		(start 119.08 50.01)
+		(end 132.43 63.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "e1dfa5de-b955-4418-b837-7c02005a647b")
+	)
+	(gr_text "I would reccomend using a ground plane \nand vias instead of the ground traces, especially since most of the\ntraces on the back are ground anyways"
+		(at 146.08 41.93 0)
+		(layer "User.1")
+		(uuid "3669b959-29ec-48d7-be63-0a4d9201c0bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "This jumper is backwards"
+		(at 127.4 93.98 0)
+		(layer "User.1")
+		(uuid "5d81d63b-c043-491b-9e27-c8b0dd1a562b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "use JST GH, not PH"
+		(at 146.99 89.89 0)
+		(layer "User.1")
+		(uuid "6e92d837-ba90-4792-834a-d2957cc7ae5e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "this traces doesn't need to go around, \nit can just go straight to its \ndestination, since its on the bottom\n"
+		(at 122.06 66.63 270)
+		(layer "User.1")
+		(uuid "7c67cfa5-9286-496c-8b9e-50b81c539984")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Pretty jaggad traces,\nnot a huge deal but there\nis space, so I'd change it"
+		(at 119.08 54.54 0)
+		(layer "User.1")
+		(uuid "d563bea5-773c-486c-bd26-390f5e031565")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "How big are these devices, the \nmotherboard has an overhang past\nthe jumpers, so if these are tall\nit could be an issue"
+		(at 160.67 56.37 0)
+		(layer "User.1")
+		(uuid "f6ae77e4-a03e-4cb9-8a62-c65aa245bf2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 128.8 66.86)
 		(end 130.625 68.685)
