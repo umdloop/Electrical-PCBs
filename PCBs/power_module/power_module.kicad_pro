@@ -538,6 +538,10 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+3.3V"
       }
     ]
   },
