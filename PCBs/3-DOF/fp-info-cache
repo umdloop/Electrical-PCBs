@@ -1,4 +1,4 @@
-26718922098089178
+26720697091061920
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106364,3 +106364,10 @@ XIAO-Generic-Hybrid-14P-2.54-21X17.8MM
 0
 14
 14
+footprints
+l298n_with_heatsink
+
+
+0
+17
+17
