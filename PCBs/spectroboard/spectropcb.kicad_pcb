@@ -5720,6 +5720,66 @@
 		(layer "Edge.Cuts")
 		(uuid "a25e2a98-6c67-4d0f-be3e-95dc14ca3a36")
 	)
+	(gr_text "PWM"
+		(at 126.07 88.96 0)
+		(layer "F.SilkS")
+		(uuid "040bd93b-41e2-4adb-a1f2-ae3dce269b12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 148.48 88.92 0)
+		(layer "F.SilkS")
+		(uuid "3d3963f3-fe85-487f-8e3e-59280c4f1f33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 144.47 89.03 0)
+		(layer "F.SilkS")
+		(uuid "b73c8fce-9aad-426b-a83c-0db563d1a71e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 129.48 89.08 0)
+		(layer "F.SilkS")
+		(uuid "ce2d1a36-9a2b-4a39-b4c6-c354dc8e5de0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+5V"
+		(at 122.95 89.08 0)
+		(layer "F.SilkS")
+		(uuid "e1a6735a-c641-49ef-95d5-e24da8f32931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 125.511 68.011)
 		(end 125 68.522)
