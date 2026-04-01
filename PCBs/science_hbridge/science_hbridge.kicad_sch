@@ -5435,7 +5435,7 @@
 		)
 		(uuid "68efea26-93d8-4656-8c6a-85ba2c094ec9")
 	)
-	(label "52"
+	(label "54"
 		(at 254 69.85 0)
 		(effects
 			(font
@@ -5635,7 +5635,7 @@
 		)
 		(uuid "d21d1d0c-8712-4950-b435-02d4c838af8e")
 	)
-	(label "51"
+	(label "53"
 		(at 254 77.47 0)
 		(effects
 			(font
