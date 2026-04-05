@@ -1,4 +1,4 @@
-26288920952531518
+26290696302575450
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95136,6 +95136,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SM02B_GHS
+JST_SM02B-GHS-TB
+
+
+0
+4
+4
 SM03B_GHS
 RV_Disc_D7mm_W3.4mm_P5mm
 Varistor, diameter 7mm, width 3.4mm, pitch 5mm
