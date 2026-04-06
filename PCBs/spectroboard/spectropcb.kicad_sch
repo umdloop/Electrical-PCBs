@@ -12,7 +12,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "U1"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "WDIP22-G-400-2.54H_TOS"
+			(property "Footprint" "footprints:WDIP22-G-400-2.54H_TOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -222,7 +222,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -12.7 0)
 					(length 7.62)
 					(name "NC"
@@ -240,7 +240,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -15.24 0)
 					(length 7.62)
 					(name "NC"
@@ -258,7 +258,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -17.78 0)
 					(length 7.62)
 					(name "NC"
@@ -276,7 +276,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -20.32 0)
 					(length 7.62)
 					(name "NC"
@@ -294,7 +294,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -22.86 0)
 					(length 7.62)
 					(name "NC"
@@ -312,7 +312,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 0 -25.4 0)
 					(length 7.62)
 					(name "NC"
@@ -366,7 +366,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -5.08 180)
 					(length 7.62)
 					(name "NC"
@@ -384,7 +384,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "NC"
@@ -402,7 +402,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -10.16 180)
 					(length 7.62)
 					(name "NC"
@@ -420,7 +420,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -12.7 180)
 					(length 7.62)
 					(name "NC"
@@ -438,7 +438,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -15.24 180)
 					(length 7.62)
 					(name "NC"
@@ -456,7 +456,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -17.78 180)
 					(length 7.62)
 					(name "NC"
@@ -474,7 +474,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -20.32 180)
 					(length 7.62)
 					(name "NC"
@@ -492,7 +492,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -22.86 180)
 					(length 7.62)
 					(name "NC"
@@ -510,7 +510,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 40.64 -25.4 180)
 					(length 7.62)
 					(name "NC"
