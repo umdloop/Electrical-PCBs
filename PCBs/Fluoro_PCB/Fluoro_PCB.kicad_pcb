@@ -4521,6 +4521,18 @@
 		(layer "Edge.Cuts")
 		(uuid "df9dd2df-dd36-481e-aaf9-258f3a7f34a9")
 	)
+	(gr_text "1) I would not use a plane on top, there is not really a need\n2) If something is tht and connects to a plane, it does not need a via\n3)Wrong connectors, use jst-GH\n4)C1 is just in the middle of nowhere, it should be closer to the\npower input\n5) you have a lot of space, switch smd components to 0805\n6) you can bring the jsts on the right closer in, esp when you \nswitch them for the right ones\n7) mounting holes + silkscreen pinout\n8) Make sure you double check you can use pin 43 as ADC\n9) add 22nF capactor by the ADC pin"
+		(at 173.69 52.95 0)
+		(layer "User.1")
+		(uuid "4885a700-5424-4c2a-95d9-0bde1da0ce1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 151.66 56.67)
 		(end 147.64 60.69)

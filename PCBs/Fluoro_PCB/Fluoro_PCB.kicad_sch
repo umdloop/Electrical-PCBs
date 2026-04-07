@@ -2713,6 +2713,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Datsheet says to connect pins 4 and 5 (page 3)\nAlso you should probably have a 100nF capacitor at the power\ninput unless the datasheet says otherwise"
+		(exclude_from_sim no)
+		(at 207.01 63.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "12bc6bce-f828-441d-930e-2fe6c6aa94f3")
+	)
+	(text "fairly certain Q is backwards, please double check with the datasheet\nthe emitter should be connected to teh 5V"
+		(exclude_from_sim no)
+		(at 167.386 44.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f071659-4078-48be-8319-380927400814")
+	)
 	(junction
 		(at 128.27 34.29)
 		(diameter 0)
