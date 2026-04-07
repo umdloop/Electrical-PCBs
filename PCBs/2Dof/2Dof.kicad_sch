@@ -4195,6 +4195,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "for the transistor stuff, put the capacitors on the output by the headers instead\n(same for servo)"
+		(exclude_from_sim no)
+		(at 101.854 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b447813-d934-4224-969b-336c1821a2df")
+	)
 	(text_box "Laser Diode"
 		(exclude_from_sim no)
 		(at 90.17 111.76 0)
