@@ -14660,8 +14660,30 @@
 		(layer "Edge.Cuts")
 		(uuid "8ba9fc2e-b47c-482c-ba81-e55b67db50ad")
 	)
-	(gr_text "RUN DRC, you are missing some ground VIAS\n\nVias go through layers, throughhole components already go thgrough the layers\nIf you look at the shaded blue part, you'll see theres no {dblquote}bubble{dblquote} around\ntht components that need ground, there is a t shape through them, so they are\nalready connected to ground. Only surface mount pads need them since they\nneed some way to get the ground connection\n\nthe traces going to the motor should be much much thicker, the traces\nThe traces going to the servos and any high current carrying routes\nshould be thicker as well. Similalry if you have a wider trace, you need \na wider via, the via hole should = trace width, and the via diamter should be double\nalso if you have a capacitor with a thick power trace, the ground trace\nshould be equally as thick\n\nConstraints are in the board setup tab... also google... :(\n\nclean up silkscreen by removing the stuff u dont need and putting\nhelpful labels that will make it easy to assemble and use"
-		(at 99.51 142.1 0)
+	(gr_rect
+		(start 130.31 47.78)
+		(end 141.73 60.37)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "3016d811-d768-453d-a9da-76ab9378f68e")
+	)
+	(gr_rect
+		(start 144.964 57.684)
+		(end 149.22 63.11)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "346fbad1-34ad-4bfd-ad90-e073a9e71881")
+	)
+	(gr_text "RUN DRC, you are missing some ground VIAS\n\nVias go through layers, throughhole components already go thgrough the layers\nIf you look at the shaded blue part, you'll see theres no {dblquote}bubble{dblquote} around\ntht components that need ground, there is a t shape through them, so they are\nalready connected to ground. Only surface mount pads need them since they\nneed some way to get the ground connection\n\nthe traces going to the motor should be much much thicker, the traces\nThe traces going to the servos and any high current carrying routes\nshould be thicker as well. Similalry if you have a wider trace, you need \na wider via, the via hole should = trace width, and the via diamter should be double\nalso if you have a capacitor with a thick power trace, the ground trace\nshould be equally as thick\n\nConstraints are in the board setup tab... also google... :(\n\nclean up silkscreen by removing the stuff u dont need and putting\nhelpful labels that will make it easy to assemble and use\n\nAlso changr the jst to the standard one we are using\n\nalso avoid 90 degree traces, also the 5V trace in the big square\ni highlighted is super wonky, i dont think it needs to be like that\n\nPlease go through and clean up some traces, you have vias where you \ndont need them like in the smaller square I made, just comb through \nall of em and make sure theres no unnecessary vias, or if there is a \nbetter way to route that specific area\n\nAre u sure U2 has the right footprint, usually vregs are smd?"
+		(at 97.16 174.43 0)
 		(layer "F.Cu")
 		(uuid "9049b680-495d-4835-b521-bd1aaf01c697")
 		(effects
