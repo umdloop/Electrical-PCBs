@@ -2713,9 +2713,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Datsheet says to connect pins 4 and 5 (page 3)\nAlso you should probably have a 100nF capacitor at the power\ninput unless the datasheet says otherwise"
+	(text "Datsheet says to connect pins 4 and 5 (page 3)\nAlso you should probably have a 100nF capacitor at the power\ninput unless the datasheet says otherwise\n\nedit: putting here so you dont forget, change these resistor values\nso the upper limit of the output is not exactly 3.3V"
 		(exclude_from_sim no)
-		(at 207.01 63.246 0)
+		(at 238.506 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
