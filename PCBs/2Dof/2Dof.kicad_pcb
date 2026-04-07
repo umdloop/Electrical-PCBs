@@ -14660,6 +14660,29 @@
 		(layer "Edge.Cuts")
 		(uuid "8ba9fc2e-b47c-482c-ba81-e55b67db50ad")
 	)
+	(gr_rect
+		(start 118.25 49.13)
+		(end 145.3 64.74)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "0cb977dd-d5ab-4561-88c2-8760291a8b13")
+	)
+	(gr_text "In the box I made, the routings not great, a lot of places have vias where they dont need if the\nrouting and placement was done better. An example of this is the resistor for the transciever (RRS4?)\nIs super far away from the transciever so it leads to you using vias where not needed\n\nyou should have a 10uf at the 24V input header, also you should move it further from the hbridge since the \nheatsink will overlap, if you turn on silkscreen you should see it\n\nif smth is tht and connected to GND, it doesnt need a via\n\nSuper important: ur constraints are not set up right, so it might show that it \npasses the DRC, but the DRC is just wrong if the constraints are wrong\n\nlater:\nclean up silkscreen, add pinouts on the silkscreen\n"
+		(at 92.08 35.71 0)
+		(layer "User.1")
+		(uuid "529fbd0c-c321-4c30-9e96-60556e4ede6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 123.778 64.262)
 		(end 123.444 64.262)
