@@ -188,7 +188,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -466,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2Dof.kicad_pro",
+    "filename": "2Dof-tests.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -634,6 +637,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
