@@ -4272,12 +4272,6 @@
 		(uuid "00de084e-5234-48b9-a40f-d78ec29aafb0")
 	)
 	(junction
-		(at 148.59 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "041c3a87-a712-499e-a594-894e2aab823d")
-	)
-	(junction
 		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4348,12 +4342,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "712debe2-ca50-4a1b-aa57-66eddbdf5ac5")
-	)
-	(junction
-		(at 148.59 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78e33f38-6ee2-4457-a708-22ac1bff438a")
 	)
 	(junction
 		(at 110.49 113.03)
@@ -5553,16 +5541,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 148.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a14d09e5-c26e-4e65-afd1-d2998bdd2076")
-	)
-	(wire
-		(pts
 			(xy 71.12 50.8) (xy 77.47 50.8)
 		)
 		(stroke
@@ -5663,16 +5641,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 148.59 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2eceb2d-a5cd-4cad-ac11-2bb2e589c722")
-	)
-	(wire
-		(pts
 			(xy 31.75 45.72) (xy 40.64 45.72)
 		)
 		(stroke
@@ -5683,7 +5651,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 165.1 82.55)
+			(xy 139.7 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5700,16 +5668,6 @@
 			(type default)
 		)
 		(uuid "bac89618-d7cf-4b15-b548-7890be1f5cdd")
-	)
-	(wire
-		(pts
-			(xy 148.59 82.55) (xy 148.59 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be2682cf-c88d-4da5-b140-e611b57dac4d")
 	)
 	(wire
 		(pts
@@ -5883,7 +5841,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 154.94 85.09)
+			(xy 139.7 85.09) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6231,7 +6189,7 @@
 		)
 		(uuid "0f05e72d-db3e-442b-85b1-9135f819086f")
 	)
-	(label "40"
+	(label "33"
 		(at 139.7 82.55 0)
 		(effects
 			(font
@@ -6261,7 +6219,7 @@
 		)
 		(uuid "114f843f-9d1c-4daf-b20e-ae59fe176b86")
 	)
-	(label "59"
+	(label "50"
 		(at 250.19 69.85 0)
 		(effects
 			(font
@@ -6271,7 +6229,7 @@
 		)
 		(uuid "1315350c-3e11-4c54-838a-3a6ab8dd4ea1")
 	)
-	(label "62"
+	(label "52"
 		(at 250.19 72.39 0)
 		(effects
 			(font
@@ -6351,7 +6309,7 @@
 		)
 		(uuid "35287a38-b199-4549-8812-39d13c5d16ce")
 	)
-	(label "39"
+	(label "35"
 		(at 138.43 92.71 0)
 		(effects
 			(font
