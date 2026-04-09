@@ -6189,7 +6189,7 @@
 		)
 		(uuid "0f05e72d-db3e-442b-85b1-9135f819086f")
 	)
-	(label "33"
+	(label "35"
 		(at 139.7 82.55 0)
 		(effects
 			(font
@@ -6309,7 +6309,7 @@
 		)
 		(uuid "35287a38-b199-4549-8812-39d13c5d16ce")
 	)
-	(label "35"
+	(label "33"
 		(at 138.43 92.71 0)
 		(effects
 			(font
@@ -6419,7 +6419,7 @@
 		)
 		(uuid "83f7dcf6-885a-46ba-b1fa-8e79c68e59e0")
 	)
-	(label "59"
+	(label "50"
 		(at 218.44 58.42 0)
 		(effects
 			(font
