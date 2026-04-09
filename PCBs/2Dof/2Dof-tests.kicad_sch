@@ -6469,7 +6469,7 @@
 		)
 		(uuid "8ed1f97f-ad05-429a-8961-a37ded73aad0")
 	)
-	(label "43"
+	(label "42"
 		(at 109.22 50.8 0)
 		(effects
 			(font
@@ -6549,7 +6549,7 @@
 		)
 		(uuid "bdf37253-6c40-4b9d-858a-09f1fcee2268")
 	)
-	(label "42"
+	(label "43"
 		(at 109.22 53.34 0)
 		(effects
 			(font
