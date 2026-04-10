@@ -4266,12 +4266,6 @@
 		(uuid "79d920a0-f39f-48c9-8262-7678fd3ee08a")
 	)
 	(junction
-		(at 90.17 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00de084e-5234-48b9-a40f-d78ec29aafb0")
-	)
-	(junction
 		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4308,12 +4302,6 @@
 		(uuid "29bb6a60-b6ed-4409-a968-f18057b7861b")
 	)
 	(junction
-		(at 96.52 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b09af92-2204-4770-81b0-1e98dacc9a7a")
-	)
-	(junction
 		(at 198.12 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4348,12 +4336,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c6d687e-8a10-4575-9616-881a80cfc50e")
-	)
-	(junction
-		(at 81.28 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebf3f1b-0d3a-4602-b949-7809e1720b7c")
 	)
 	(junction
 		(at 241.3 31.75)
@@ -4402,12 +4384,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1f4bd84-e45b-420b-8edd-0b47f5d4039a")
-	)
-	(junction
-		(at 77.47 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd12bc1c-5382-410d-a145-731e032b6298")
 	)
 	(junction
 		(at 107.95 41.91)
@@ -4531,16 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 44.45) (xy 90.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02580d48-53a3-4c0d-b4f4-ba9216898f2d")
-	)
-	(wire
-		(pts
 			(xy 238.76 35.56) (xy 241.3 35.56)
 		)
 		(stroke
@@ -4568,26 +4534,6 @@
 			(type default)
 		)
 		(uuid "02b42cf9-2cc1-421d-8b53-cb8b1b24c2f8")
-	)
-	(wire
-		(pts
-			(xy 90.17 30.48) (xy 80.01 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "048040c5-d160-4304-aee4-472ee9450de0")
-	)
-	(wire
-		(pts
-			(xy 81.28 74.93) (xy 95.25 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05f8a49e-0375-49e3-ab65-d925075994e5")
 	)
 	(wire
 		(pts
@@ -4668,16 +4614,6 @@
 			(type default)
 		)
 		(uuid "14d418ec-03df-457a-89d0-0acca2e6157c")
-	)
-	(wire
-		(pts
-			(xy 95.25 58.42) (xy 96.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1561d787-d56f-4bb1-991b-41e539b4a6d7")
 	)
 	(wire
 		(pts
@@ -4931,16 +4867,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 96.52 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d476d0-b7a3-4f25-814d-f6b22d446fd6")
-	)
-	(wire
-		(pts
 			(xy 165.1 66.04) (xy 165.1 82.55)
 		)
 		(stroke
@@ -5151,16 +5077,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 77.47 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653b3512-6133-45ee-a9b4-721bc06e0abc")
-	)
-	(wire
-		(pts
 			(xy 250.19 67.31) (xy 259.08 67.31)
 		)
 		(stroke
@@ -5208,16 +5124,6 @@
 			(type default)
 		)
 		(uuid "68adee56-a935-4026-9584-8e86157d90ed")
-	)
-	(wire
-		(pts
-			(xy 77.47 74.93) (xy 81.28 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af05eae-7710-400a-8eaf-63cbaeda4888")
 	)
 	(wire
 		(pts
@@ -5281,7 +5187,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 85.09 52.07)
+			(xy 85.09 52.07) (xy 102.87 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5391,23 +5297,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 74.93) (xy 77.47 74.93)
+			(xy 72.39 74.93) (xy 81.28 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f00a3a9-9547-4cf4-be54-91e530f7d220")
-	)
-	(wire
-		(pts
-			(xy 90.17 30.48) (xy 90.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbbc251-0997-44e2-ba7b-96573fc8b6f4")
 	)
 	(wire
 		(pts
@@ -5431,16 +5327,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 44.45) (xy 96.52 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9187d2ff-1360-4c98-92cb-089e8957ae8b")
-	)
-	(wire
-		(pts
 			(xy 33.02 170.18) (xy 33.02 156.21)
 		)
 		(stroke
@@ -5448,16 +5334,6 @@
 			(type default)
 		)
 		(uuid "9259f88f-fda9-43cd-9a26-ead88488e752")
-	)
-	(wire
-		(pts
-			(xy 87.63 53.34) (xy 90.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933da212-c3c5-4baf-bcf5-5ce07d33dec0")
 	)
 	(wire
 		(pts
@@ -5671,16 +5547,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 90.17 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf46c29c-59f5-4af5-be5a-0e27cf22048e")
-	)
-	(wire
-		(pts
 			(xy 121.92 180.34) (xy 121.92 175.26)
 		)
 		(stroke
@@ -5851,16 +5717,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 58.42) (xy 95.25 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c2fbd4-8c80-4e87-aec7-da2cbeb984b4")
-	)
-	(wire
-		(pts
 			(xy 250.19 72.39) (xy 259.08 72.39)
 		)
 		(stroke
@@ -5941,16 +5797,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 53.34) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa2a152-c507-44db-aca3-9e7068f74200")
-	)
-	(wire
-		(pts
 			(xy 102.87 50.8) (xy 106.68 50.8)
 		)
 		(stroke
@@ -6008,16 +5854,6 @@
 			(type default)
 		)
 		(uuid "dea7f124-7688-47a1-949a-93f2c475a959")
-	)
-	(wire
-		(pts
-			(xy 87.63 76.2) (xy 77.47 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bea7d6-bbe8-433e-92ec-f92b640a012a")
 	)
 	(wire
 		(pts
@@ -6141,7 +5977,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 30.48) (xy 96.52 30.48)
+			(xy 80.01 30.48) (xy 124.46 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7160,13 +6996,13 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 50.8 162.56 90)
+		(at 50.8 162.56 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "11ddeb9c-676a-456e-9b7f-bb47d695a8f6")
 		(property "Reference" "CVin1"
 			(at 50.8 154.94 90)
@@ -7185,7 +7021,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 54.61 161.5948 0)
+			(at 46.99 161.5948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,95 +7126,6 @@
 			(project "2Dof"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "RRS5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 87.63 72.39 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19c37ec2-0d85-4dc8-aa57-9067d9de2388")
-		(property "Reference" "DHBA5"
-			(at 90.17 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 90.17 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 83.185 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 87.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6ff8c9f0-6d52-49a1-82b2-db43b4f7a78d")
-		)
-		(pin "1"
-			(uuid "0ba451b4-fa42-4ebd-8eae-2ffcc00a4fb1")
-		)
-		(instances
-			(project "2Dof"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "DHBA5")
 					(unit 1)
 				)
 			)
@@ -8194,7 +7941,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "42aca99a-7524-42c7-aa4d-2beb563a7251")
 		(property "Reference" "#PWR071"
 			(at 123.19 41.91 0)
@@ -8206,7 +7952,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 41.91 0)
+			(at 120.396 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8661,95 +8407,6 @@
 			(project "2Dof"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "CVregA1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 95.25 71.12 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "564b50f7-1c86-475a-8785-541f3b4f3c82")
-		(property "Reference" "DHBA7"
-			(at 97.79 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 97.79 72.3899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 90.805 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 95.25 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dff61a2b-6111-4efe-a047-f283fd21af5c")
-		)
-		(pin "1"
-			(uuid "7a084606-c55d-4b3b-94c9-7aa952fcfcf6")
-		)
-		(instances
-			(project "2Dof"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "DHBA7")
 					(unit 1)
 				)
 			)
@@ -11007,95 +10664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 90.17 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a335ded7-3fcc-4ee7-af0b-12283d7ea493")
-		(property "Reference" "DHBA6"
-			(at 92.71 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 92.71 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 85.725 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 90.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 90.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 90.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 90.17 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3878eef6-bf6e-4f70-87b5-f3fea2a3dbb9")
-		)
-		(pin "1"
-			(uuid "0ecf155f-9f8a-4e74-b430-ca50231ed136")
-		)
-		(instances
-			(project "2Dof"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "DHBA6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 133.35 167.64 270)
 		(unit 1)
@@ -12768,95 +12336,6 @@
 			(project "2Dof"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 96.52 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc403a50-f280-47f3-bc7b-727d1c404902")
-		(property "Reference" "DHBA8"
-			(at 99.06 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 99.06 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 92.075 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 96.52 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c8c8d7d-0424-4f95-9e5a-84b4ac81cf5a")
-		)
-		(pin "1"
-			(uuid "1fbfe5ca-7646-4913-a368-2744a7d6500e")
-		)
-		(instances
-			(project "2Dof"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "DHBA8")
 					(unit 1)
 				)
 			)
