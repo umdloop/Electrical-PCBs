@@ -13161,6 +13161,17 @@
 		)
 	)
 	(gr_rect
+		(start 117.02 83.37)
+		(end 142.06 96.82)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "b6752d60-5a81-4eeb-9683-9a7b093d3019")
+	)
+	(gr_rect
 		(start 103.378 44.704)
 		(end 156.678 90.704)
 		(stroke
@@ -13171,10 +13182,49 @@
 		(layer "Edge.Cuts")
 		(uuid "5aadee73-9196-497f-b0a5-b9837c497125")
 	)
+	(gr_text "remember to run DRC, you are missing a groudn VIA"
+		(at 141 71.96 0)
+		(layer "F.Cu")
+		(uuid "44c7aea8-e95e-4dc1-b298-b12989d8a05b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "not a huge fan of how this trace narrows"
+		(at 118.17 94.23 0)
+		(layer "F.Cu")
+		(uuid "4658eb5d-7844-4c0a-a1f9-9b6d2f0cc9ca")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RUN DRC, you are missing some ground VIAS\n\nVias go through layers, throughhole components already go thgrough the layers\nIf you look at the shaded blue part, you'll see theres no {dblquote}bubble{dblquote} around\ntht components that need ground, there is a t shape through them, so they are\nalready connected to ground. Only surface mount pads need them since they\nneed some way to get the ground connection\n\nthe traces going to the motor should be much much thicker, the traces\nThe traces going to the servos and any high current carrying routes\nshould be thicker as well. Similalry if you have a wider trace, you need \na wider via, the via hole should = trace width, and the via diamter should be double\nalso if you have a capacitor with a thick power trace, the ground trace\nshould be equally as thick\n\nConstraints are in the board setup tab... also google... :(\n\nclean up silkscreen by removing the stuff u dont need and putting\nhelpful labels that will make it easy to assemble and use\n\nAlso changr the jst to the standard one we are using\n\nalso avoid 90 degree traces, also the 5V trace in the big square\ni highlighted is super wonky, i dont think it needs to be like that\n\nPlease go through and clean up some traces, you have vias where you \ndont need them like in the smaller square I made, just comb through \nall of em and make sure theres no unnecessary vias, or if there is a \nbetter way to route that specific area\n\nAre u sure U2 has the right footprint, usually vregs are smd?"
 		(at -113.792 151.892 0)
 		(layer "F.Cu")
 		(uuid "9049b680-495d-4835-b521-bd1aaf01c697")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "the molex we are using is through hole, and this is backwards anyway\n"
+		(at 100.61 90.31 90)
+		(layer "F.Cu")
+		(uuid "a28f0304-46ee-4e8e-b7d8-5e9af68703c8")
 		(effects
 			(font
 				(size 1.5 1.5)
