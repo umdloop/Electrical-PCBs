@@ -5966,6 +5966,17 @@
 			(uuid "35ccb9c8-3830-4e88-b6e7-c1ed6b4051ff")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/STEP/L298N_Heatsink_axisY.step"
+			(offset
+				(xyz 8.89 6.35 3.175)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")

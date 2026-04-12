@@ -2081,6 +2081,17 @@
 			(uuid "242dea85-63ac-4fba-9875-be0552dd548f")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/STEP/L298N_Heatsink_axisY.step"
+			(offset
+				(xyz 8.89 6.985 3.81)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
@@ -6825,6 +6836,17 @@
 			(uuid "100a1564-48f7-49ed-ad77-5b1cb6fd0d88")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3d_models/STEP/L298N_Heatsink_axisY.step"
+			(offset
+				(xyz 8.89 6.985 3.175)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
