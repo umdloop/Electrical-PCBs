@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LTC3780EG_TRPBF")(type "KiCad")(uri "C:/Users/Didi/Documents/KiCad/9.0/footprints/LTC3780EG_TRPBF")(options "")(descr ""))
+)

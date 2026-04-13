@@ -3174,6 +3174,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:XC6206PxxxMR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XC6206PxxxMR"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23?3*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XC6206PxxxMR_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "XC6206PxxxMR_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3626,10 +3767,22 @@
 		(uuid "0d70f2eb-cea4-4ca6-b564-257ee8fb8232")
 	)
 	(junction
+		(at 462.28 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1766cb84-0e3d-434b-b8ff-dfad8bff24a6")
+	)
+	(junction
 		(at 320.04 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "187db300-b5d2-41bb-9683-27600cd9c702")
+	)
+	(junction
+		(at 462.28 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1983c8e0-7bf0-45f1-8b4d-e2bb418da943")
 	)
 	(junction
 		(at 298.45 165.1)
@@ -3692,6 +3845,12 @@
 		(uuid "43d5d769-92f0-4caf-9ac3-08787f6866a9")
 	)
 	(junction
+		(at 453.39 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d6e5413-53ad-4183-8ddd-d7041d4d3b14")
+	)
+	(junction
 		(at 364.49 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3720,12 +3879,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62acae5b-0ef6-4d06-8e54-067c7d0ae08a")
-	)
-	(junction
-		(at 453.39 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d8225d8-5b16-4398-bff2-0ea036148d8d")
 	)
 	(junction
 		(at 363.22 72.39)
@@ -3764,6 +3917,12 @@
 		(uuid "ad486109-af47-4d72-89de-505b712d8ef2")
 	)
 	(junction
+		(at 476.25 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adaa9858-9736-453c-9c8b-f81e657365d4")
+	)
+	(junction
 		(at 363.22 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3786,6 +3945,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8a5ae5c-b554-4f71-889b-eeec878d1f5c")
+	)
+	(junction
+		(at 453.39 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cab0f575-6a10-4582-b286-b44e4b754e2c")
 	)
 	(junction
 		(at 364.49 58.42)
@@ -3818,16 +3983,16 @@
 		(uuid "e0f02656-138b-47de-9765-e69b5e1126f5")
 	)
 	(junction
+		(at 447.04 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e474d007-3be6-4ebf-bdef-2a072858e32e")
+	)
+	(junction
 		(at 336.55 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f000551c-1e6f-47d8-b3b7-9d4f60002f53")
-	)
-	(junction
-		(at 453.39 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0e2cc15-0d57-4b20-8ba4-7bcb76ac3eeb")
 	)
 	(junction
 		(at 311.15 113.03)
@@ -3904,6 +4069,16 @@
 			(type default)
 		)
 		(uuid "0895846b-993e-4a57-87e3-eba733f5cff5")
+	)
+	(wire
+		(pts
+			(xy 462.28 160.02) (xy 462.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095c966e-72cc-4338-93b3-4d242b779bdc")
 	)
 	(wire
 		(pts
@@ -4154,6 +4329,16 @@
 			(type default)
 		)
 		(uuid "39282e0b-b962-4594-b76f-ec29f0167134")
+	)
+	(wire
+		(pts
+			(xy 444.5 160.02) (xy 462.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0a08c4-cbb4-48b5-aa49-0530ae95e7a9")
 	)
 	(wire
 		(pts
@@ -4467,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 447.04 152.4) (xy 454.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643fba26-32a8-44bf-8172-2c21174d55cc")
+	)
+	(wire
+		(pts
 			(xy 364.49 72.39) (xy 363.22 72.39)
 		)
 		(stroke
@@ -4597,6 +4792,16 @@
 	)
 	(wire
 		(pts
+			(xy 454.66 152.4) (xy 454.66 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "851a97da-de98-4a96-b1e8-81f1bf3db838")
+	)
+	(wire
+		(pts
 			(xy 364.49 58.42) (xy 364.49 69.85)
 		)
 		(stroke
@@ -4704,6 +4909,16 @@
 			(type default)
 		)
 		(uuid "a3041444-1b2d-48c0-b49a-e09aaeb18bfd")
+	)
+	(wire
+		(pts
+			(xy 469.9 151.13) (xy 476.25 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a366e018-3169-4f10-abc2-8b9093114398")
 	)
 	(wire
 		(pts
@@ -4857,6 +5072,16 @@
 	)
 	(wire
 		(pts
+			(xy 444.5 152.4) (xy 447.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d095f0-16b7-40b3-ac4f-1095f6516460")
+	)
+	(wire
+		(pts
 			(xy 271.78 180.34) (xy 280.67 180.34)
 		)
 		(stroke
@@ -4954,6 +5179,16 @@
 			(type default)
 		)
 		(uuid "d3e61f12-d2a7-4b1c-b7b1-ad75a25dfca6")
+	)
+	(wire
+		(pts
+			(xy 476.25 158.75) (xy 462.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8671817-d5ec-44a8-9a65-a9995b760677")
 	)
 	(wire
 		(pts
@@ -5435,7 +5670,7 @@
 		)
 		(uuid "68efea26-93d8-4656-8c6a-85ba2c094ec9")
 	)
-	(label "52"
+	(label "54"
 		(at 254 69.85 0)
 		(effects
 			(font
@@ -5635,7 +5870,7 @@
 		)
 		(uuid "d21d1d0c-8712-4950-b435-02d4c838af8e")
 	)
-	(label "51"
+	(label "53"
 		(at 254 77.47 0)
 		(effects
 			(font
@@ -5870,72 +6105,6 @@
 			(project "science_hbridge"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 292.1 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0211e37d-0d6c-4b43-96b8-a414afa9ac9a")
-		(property "Reference" "#PWR04"
-			(at 292.1 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 292.1 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 292.1 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e3bc6e4-db74-429d-b745-58475027591f")
-		)
-		(instances
-			(project "science_hbridge"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6435,6 +6604,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 447.04 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cb6ab87-ef93-4271-ad16-f7596237eaa6")
+		(property "Reference" "#PWR023"
+			(at 447.04 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 447.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 447.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 447.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 447.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c9f8d54-27ae-4089-85c9-976f35a48e2d")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 404.4535 148.9797 0)
 		(unit 1)
@@ -6493,6 +6728,72 @@
 			(project "science_hbridge"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 311.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1757969c-ca07-405f-a8cd-84d905ac9a6e")
+		(property "Reference" "#PWR05"
+			(at 311.15 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 311.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 311.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98d88510-6c71-425c-996f-5d3470743dbc")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6818,6 +7119,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 444.5 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23f05ceb-917f-4a3d-8b7d-364dd3bbade7")
+		(property "Reference" "C5"
+			(at 448.31 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 448.31 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 445.4652 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 444.5 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c03d06f6-ef0f-4576-a6b7-dd91c543626e")
+		)
+		(pin "1"
+			(uuid "4844ceac-2fdc-40c0-bbfb-da6c746b28ff")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 472.44 185.42 270)
 		(unit 1)
@@ -7045,6 +7415,72 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 476.25 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4784cbb0-6153-4070-888d-bccfb52ec707")
+		(property "Reference" "#PWR024"
+			(at 476.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 476.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 476.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 476.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 476.25 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85416eb0-523a-4988-b459-677704b337d4")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 450.85 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7245,73 +7681,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 311.15 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63706758-b242-4e32-b0aa-3d12fb5436b9")
-		(property "Reference" "#PWR05"
-			(at 311.15 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 313.69 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 311.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 311.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 311.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1c33f6e-30a4-4a68-a77f-91103f81ae2e")
-		)
-		(instances
-			(project "science_hbridge"
-				(path "/705004fe-9694-4831-a243-8c72357320a8"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 295.91 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7371,6 +7740,78 @@
 			(project "science_hbridge"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(at 462.28 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "691c8310-2c0f-4395-b9e8-7b4514861871")
+		(property "Reference" "U4"
+			(at 462.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206PxxxMR"
+			(at 462.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 462.28 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 462.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 462.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd54e22a-ea5d-451b-899e-c6b563557455")
+		)
+		(pin "1"
+			(uuid "50144ca2-e1cb-4587-a0e3-5a5db79eb8b8")
+		)
+		(pin "3"
+			(uuid "fce2714b-ca61-4c18-b733-5aced0dfaab6")
+		)
+		(instances
+			(project ""
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7759,7 +8200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
+		(property "Footprint" "footprints:CONN_SD-43045-001_02_MOL"
 			(at 458.47 81.28 0)
 			(effects
 				(font
@@ -8157,6 +8598,72 @@
 			(project "daughterboard_template"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 462.28 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9574caa5-0496-4c39-a6ed-9193e14d73c1")
+		(property "Reference" "#PWR025"
+			(at 462.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 462.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 462.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 462.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 462.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e4f18d6-3875-4c12-b0df-658aa2bcb352")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8765,6 +9272,75 @@
 			(project "daughterboard_template"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 476.25 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b496ac4d-3d56-402e-be09-270d7afe679b")
+		(property "Reference" "C10"
+			(at 480.06 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nf"
+			(at 480.06 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 477.2152 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 476.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 476.25 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f02ca15c-496d-46e8-932a-b4a0cb441813")
+		)
+		(pin "1"
+			(uuid "1c08eac1-4a14-4f34-b846-bd28d1a86d1f")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10046,6 +10622,72 @@
 			(project "science_hbridge"
 				(path "/705004fe-9694-4831-a243-8c72357320a8"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 292.1 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd71810f-c904-455e-81f3-e6e50f311eb5")
+		(property "Reference" "#PWR04"
+			(at 292.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 292.1 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 292.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2afa8b5a-ef20-4c88-9ee1-debbd7292635")
+		)
+		(instances
+			(project "science_hbridge"
+				(path "/705004fe-9694-4831-a243-8c72357320a8"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

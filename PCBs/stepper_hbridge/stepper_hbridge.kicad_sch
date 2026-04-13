@@ -7126,7 +7126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical"
+		(property "Footprint" "footprints:CONN_SD-43045-001_02_MOL"
 			(at 384.81 55.88 0)
 			(effects
 				(font
