@@ -13426,7 +13426,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "what do i even do for pinouts?"
+	(gr_text "what do i even do for pinouts?\n\nyeah on the silkscreen, like for a servo you'd label which is power, gnd, pwm, etc\nor like for the encoder you would label power, gnd, A, B"
 		(at 137.922 37.846 0)
 		(layer "F.SilkS")
 		(uuid "7e537a60-6801-49ba-934e-b01edbc863a0")
