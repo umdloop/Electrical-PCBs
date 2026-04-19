@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VLMW45R1S1-5K6L-08
+D Standard LEDs - SMD White 160mcd 3.3V PLCC-2
+K
+F http://www.vishay.com/docs/83374/vlmw45r1.pdf
+$ENDCMP
+#
+#End Doc Library
