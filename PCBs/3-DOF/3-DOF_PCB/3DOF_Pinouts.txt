@@ -1,0 +1,54 @@
+Pinouts
+HBA:
+in1 - PC0 
+in2 - PC1
+enA - PA5
+in3 - PC2
+in4 - PC3
+enB - PB3
+sensA - GND
+sensB - GND
+out1 - Pin6 of DC 1
+out2 - Pin1 of DC 1
+out3 - Pin6 of DC 2
+out4 - Pin6 of DC 2
+
+HBB:
+in1 - PC4
+in2 - PC5
+enA - PB5
+in3 - PC6
+in4 - PC7
+enB - PB8
+sensA - GND
+sensB - GND
+out1 - Pin6 of DC 3
+out2 - Pin1 of DC 3
+out3 - Pin6 of DC 4
+out4 - Pin1 of DC 4
+
+Servo1
+1: GND
+2: PB9 to Pin2 via 2transistor setup
+3: PB9
+4: PB1
+
+Servo2
+1: GND
+2: PB7 to Pin2 via 2transistor setup
+3: PB7
+4: PB0
+
+RS485MAX
+RO - PB11
+RE - PC12
+DE - PC12
+DI - PC10
+A - PIN2 of AMTbus
+B - PIN3 of AMTbus
+
+LaserDiode
+1: PB4
+2: GND 
+
+
